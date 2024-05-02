@@ -1,0 +1,49 @@
+body {
+	color: white;
+	background-color: darkslateblue;
+	font-size: 40px;
+	line-height: 130%;
+}
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header {
+	background-color: darkslategrey;
+	padding: 20px 0;
+	text-align: center;
+}
+.header__btn {
+	cursor: pointer;
+	color: white;
+	border: 1px solid yellowgreen;
+	padding: 10px 30px;
+	border-radius: 10px;
+	transition: 0.3s;
+	font-size: 40px;
+	background-color: transparent;
+}
+
+.header__btn_active,
+.header__btn:hover,
+.multi__link:hover {
+	background-color: darkblue;
+}
+
+.multi {
+}
+.multi__text {
+	padding: 20px 0;
+}
+
+.multi__link {
+	color: lightgreen;
+	font-weight: 700;
+	background-color: rgb(87, 35, 87);
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	transition: 0.3s;
+}
